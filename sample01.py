@@ -862,10 +862,9 @@ thisset = {"apple", "banana", "cherry"}
 
 del thisset 
 
+thisset = {"apple2", "banana2", "cherry2"}
+
 print(thisset)
-
-thisset = {"apple", "banana", "cherry"}
-
 for x in thisset:
     print(x)
 
@@ -1271,9 +1270,12 @@ while i < 6:
 
 i = 1
 while i < 6:
-    print(i)
+    
     if i == 3:
+        i += 1
         continue
+
+    print(i)
     i += 1
 
 i = 1
