@@ -1,0 +1,7 @@
+Numpy stands for numerical python
+
+The array object in NumPy is called ndarray
+
+Data Science: is a branch of computer science where we study how to store, use and analyze data for deriving information from it.
+
+github: enables many people to work on the same codebase.
