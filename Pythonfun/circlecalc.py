@@ -4,11 +4,24 @@ y = "What is the radius of your circle: "
 
 nr = input(x)
 
-if nr == "1":
+if nr == "1" or "2" or "3":
     nr2 = (input(y))
 
-if x < 0:
-  raise Exception("Sorry, no numbers below zero")
+z = pow(float(nr2), 2)
+
+if nr == "1":
+    print("The area of your circle is: ")
+    print(3.14 * float(z))
+
+if nr == "2":
+    print("The diameter of your circle is: ")
+    print(float(nr2) * 2)
+
+if nr == "3":
+    print("The circumference of your circle is: ")
+    print(round((float(nr2) * 2) * 3.14))
+
+
 
 
 
