@@ -19,7 +19,7 @@ if nr == "2":
 
 if nr == "3":
     print("The circumference of your circle is: ")
-    print(round((float(nr2) * 2) * 3.14))
+    print((float(nr2) * 2) * 3.14)
 
 
 
